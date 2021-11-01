@@ -23,7 +23,7 @@ void setup(){
 void loop(){
   int i;
   lcd.setCursor(3,0);
-  lcd.print("Anh yeu em");//Viết 1 dòng tình cảm
+  lcd.print("Toi yeu em");//Viết 1 dòng tình cảm
   for (i = 0;i<=16;i=i+1) {  //Bắt đầu in ra hình trái tim
   lcd.setCursor(i,1);
   lcd.write(1);
